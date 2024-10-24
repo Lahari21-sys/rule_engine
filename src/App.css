@@ -1,0 +1,48 @@
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.create-rule, .evaluate-rule, .combine-rules {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.create-rule form, .evaluate-rule form, .combine-rules form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-rule input, .evaluate-rule select, .evaluate-rule textarea, .combine-rules select, .combine-rules select[multiple] {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.create-rule button, .evaluate-rule button, .combine-rules button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.rules-list {
+  margin: 20px;
+}
+
+.rules-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rules-list li {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
